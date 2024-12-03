@@ -65,7 +65,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l5IVs_DGDJWgKO2tLOiS-21" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;d: login ou&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;senha&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;incorreta&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="l5IVs_DGDJWgKO2tLOiS-21" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;if: login ou&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;senha&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;incorreta&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="-80" y="344" width="80" height="32" as="geometry" />
         </mxCell>
         <mxCell id="l5IVs_DGDJWgKO2tLOiS-22" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
@@ -250,7 +250,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l5IVs_DGDJWgKO2tLOiS-68" value="&lt;font size=&quot;1&quot;&gt;d: período&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;indisponível&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="l5IVs_DGDJWgKO2tLOiS-68" value="&lt;font size=&quot;1&quot;&gt;if: período&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;indisponível&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="520" y="714" width="80" height="32" as="geometry" />
         </mxCell>
         <mxCell id="l5IVs_DGDJWgKO2tLOiS-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
@@ -320,7 +320,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l5IVs_DGDJWgKO2tLOiS-90" value="&lt;font size=&quot;1&quot;&gt;d: dados inválidos&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="l5IVs_DGDJWgKO2tLOiS-90" value="&lt;font size=&quot;1&quot;&gt;if: dados inválidos&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="-480" y="138" width="80" height="42" as="geometry" />
         </mxCell>
         <mxCell id="l5IVs_DGDJWgKO2tLOiS-92" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;if: dados válidos&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -345,7 +345,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l2pt0H2XzTYbZArDygso-2" value="&lt;font size=&quot;1&quot;&gt;d: dados&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;inválidos&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="l2pt0H2XzTYbZArDygso-2" value="&lt;font size=&quot;1&quot;&gt;if: dados&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;inválidos&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="800" y="715" width="80" height="32" as="geometry" />
         </mxCell>
         <mxCell id="ruoURCrerZYPwbjkhUwL-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;[lembrar dados da sessão:&amp;nbsp;&lt;div&gt;d: email],&lt;br&gt;&lt;/div&gt;&lt;div&gt;[lembrar dados da doação:&lt;/div&gt;&lt;div&gt;d: instituição selecionada,&lt;/div&gt;&lt;div&gt;d: status da doação,&lt;/div&gt;&lt;div&gt;d: lista de roupas,&lt;/div&gt;&lt;div&gt;d: endereço de coleta,&lt;/div&gt;&lt;div&gt;d: período de coleta]&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;absoluteArcSize=0;" parent="1" vertex="1">
@@ -369,6 +369,52 @@
         </mxCell>
         <mxCell id="ruoURCrerZYPwbjkhUwL-5" value="&lt;font size=&quot;1&quot;&gt;u: confirmar doação&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="32.5" y="954.5" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AW96GOfySkP2Xc3MYBKv-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l5IVs_DGDJWgKO2tLOiS-39" target="ruoURCrerZYPwbjkhUwL-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-210" y="930" as="sourcePoint" />
+            <mxPoint x="-430" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-230" y="845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AW96GOfySkP2Xc3MYBKv-2" value="&lt;font size=&quot;1&quot;&gt;u: acompanhar doações&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="834" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AW96GOfySkP2Xc3MYBKv-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=-0.008;entryY=0.277;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l5IVs_DGDJWgKO2tLOiS-64" target="l5IVs_DGDJWgKO2tLOiS-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="625" y="854" as="sourcePoint" />
+            <mxPoint x="545" y="649" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AW96GOfySkP2Xc3MYBKv-4" value="&lt;font size=&quot;1&quot;&gt;u: voltar&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="460" y="802" width="80" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="AW96GOfySkP2Xc3MYBKv-6" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1.004;exitY=0.273;exitDx=0;exitDy=0;entryX=1.01;entryY=0.532;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="l5IVs_DGDJWgKO2tLOiS-58" target="l5IVs_DGDJWgKO2tLOiS-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="575" as="sourcePoint" />
+            <mxPoint x="880" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="570" />
+              <mxPoint x="840" y="367" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AW96GOfySkP2Xc3MYBKv-7" value="&lt;font size=&quot;1&quot;&gt;u: voltar&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="790" y="464" width="100" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="AW96GOfySkP2Xc3MYBKv-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.514;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="l5IVs_DGDJWgKO2tLOiS-48" target="l5IVs_DGDJWgKO2tLOiS-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="385" as="sourcePoint" />
+            <mxPoint x="575" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AW96GOfySkP2Xc3MYBKv-9" value="&lt;font size=&quot;1&quot;&gt;u: voltar&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="525" y="344" width="50" height="12" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
